@@ -12,8 +12,8 @@ from linebot.models import *
 app = Flask(__name__)
 
 # 必須放上自己的Channel Access Token
-line_bot_api = LineBotApi('ZrEo0cqEz5IAI9i73uKkyQC84mFb1zlUuHDw+ue9JwXQEfE7YJDwdgZ1eVNogvsIlMVSWkh/KOZ+Ip3e3lHO0hAyrNdlpKRJa5xLi/0t+6hnwCfTsflaUFfsEQHVCTQo6cJleeoUFaGdqGtfOPS+MQdB04t89/1O/w1cDnyilFU=')
-# 必須放上自己的Channel Secret
+line_bot_api = LineBotApi('dIFGsKY6MuCsb3jYo5B1jQr2+w2Qz62ewjHAc4ele0K+5PEwUdLXz6OBUxtzsQY2lMVSWkh/KOZ+Ip3e3lHO0hAyrNdlpKRJa5xLi/0t+6jRi7tNaeMnjuq1r7yaWDHFu7QF9jzBt7rBSUuFKwmDmAdB04t89/1O/w1cDnyilFU=
+')
 handler = WebhookHandler('7f926fe8041c34383d398cede02db056')
 
 line_bot_api.push_message('Uc0528640671f920eb271d4e3b3b9d7c5', TextSendMessage(text='你可以開始了'))
